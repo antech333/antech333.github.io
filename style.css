@@ -1,30 +1,219 @@
-h1{
-    font-size:50px;
-  }
-  body {
-    
-     font-family:serif;
-    margin: 2em;
-    text-align:center
-  }
-  
-  h1 {
+header {
+  height: 480px;
+  background-color: #f6d2e3;
+  position: sticky;
+  top: 0; 
+  border-bottom: 3px solid white;
+ }
+
+ .thought{
+   font-family:游ゴシック;
+   font-size:23px;
+   color: #e60038;   
+   margin-left:20px;
+ }
+
+ .header::before{
+   position:fixed;
+   height:50%;
+ }
+
+ .caption{
+   position:absolute;
+   bottom:calc(50vh+1em);
+   text-align:center;
+   font-size:40px;
+   font-family:"Bahnschrift SemiBold Condensed";
+   color:white;
+   padding:0;
+   padding-top:10px;
+   margin-right:10px;
+   margin-left:800px;
+   text-decoration:none;
+ }
+ 
+ main{
+ display:block;
+ position:relative;
+ background:#fff;
+ }
    
-    font-style: italic;
-    color:black;
+
+
+ .mainvisual{
+     background: url(https://i.ibb.co/0rpFNPQ/1.jpg);
+     height: 100%;    
+     width: 100%;
+     background-size: cover;
+     background-position: center;
+     z-index: -10;
+     position: absolute;
+     background-attachment: fixed;
+}
+
+
+ 
+ .h1{
+     position: absolute;
+     color: #ffffff;
+     text-align:right;
+     font-family:"Bahnschrift SemiBold Condensed";
+ }
+
+ 
+ 
+ .nav {
+     list-style: none;
+     display: flex;
+     justify-content: space-around;    
+     padding-left: 0px;
+     position: sticky;
+     top: 480px; 
+     font-family:"Bahnchrift Semibold Condensed"
+ }
+ 
+ .nav > li{
+     height: 60px;
+     display: flex;
+     align-items: center;
+     width: 100%;
+     justify-content: center;
+     background-color: #e60038;
+     margin: 1px;
+ }
+ 
+ .nav > li > a {
+     text-decoration: none;
+     color: #ffffff;
+     width: 100%;
+     height: 100%;
+     width: 100%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;    
+ }
+ 
+ h2{
+     color: #e60038;    
+     font-family:"游ゴシック";
+     font-size:55px;
+     margin-left:20px;
+ }
+
+ .world{
+  color: #e60038;    
+  font-family:"Bahnschrift SemiBold Condensed";
+  font-size:55px;
+}
+ 
+ .profile{
+     background-color: #f6d2e3;
+     display: flex;
+ }
+ 
+ .profile img{
+   width:50%;
+   margin-left:90px;
+   margin-top:20px;
+   margin-bottom:20px;
+ }
+ .artworks {
+     list-style: none;
+     display: flex;
+     padding-left: 0px;
+     flex-wrap: wrap;
+ }
+ 
+ .artworks > li {
+  width: calc(80%/5);;
+  margin: 1px;
+  padding:0 5px;
+ }
+
+ .artworks li img {
+	max-width:100%;
+	height: auto; 
+	border:solid 1px #ccc;
+}
+
+ .strong{
+  color: #e60038;
+  font-size: 1.5em;
+  font-family:bold;
+ }
+
+ html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+h3{
+  font-family:"遊ゴシック";
+  color: #e60038;    
+  margin-left:20px;
+}
+
+.poem{
+  color: #e60038;    
+  font-size:30px;
+}
+
+h4{
+  font-family:"遊ゴシック";
+}
+
+.hello{
+  margin-left:20px;
+  font-size:20px;
+  font-family:"遊ゴシック";
+}
+
+.matsumoto{
+  margin-left:0px;
+  font-size:40px;
+  margin-top:50px;
+  margin-bottom:0px;
+}
+
+.school{
+  margin-left:0px;
+  font-size:25px;
+  margin-top:1px;
+  margin-bottom: 0px;
+}
+
+.me{
+  margin-left:0px;
+  font-size:15px;
+  margin-top:10px;
+  margin-bottom: 0px;
+}
+
+.selection{
+  margin-left:20px;
+}
+
+.enter{
+  margin-left:20px;
+  font-size:20px;
+  font-family:"遊ゴシック";
+}
+
+.button{
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background:#e60038; 
+    color: #FFF;
+    border-bottom: solid 4px #ff004079;
+    border-radius: 3px;
   }
-  
-  li{
-    
-    font-size:30px;
-    font-family:serif;
+
+  .btn-square:active {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    border-bottom: none;
   }
-  img{
-    
-    width:40%;
-    height:40%;
-  }
-  
-  body{background-image:url(https://i.ibb.co/n8GsKGz/Eye.jpg;)
-  }
-  
+}
