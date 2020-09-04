@@ -1,3 +1,4 @@
+
 header {
   height: 480px;
   background-color: #f6d2e3;
@@ -22,13 +23,13 @@ header {
    position:absolute;
    bottom:calc(50vh+1em);
    text-align:center;
-   font-size:40px;
+   font-size:50px;
    font-family:"Bahnschrift SemiBold Condensed";
    color:white;
    padding:0;
    padding-top:10px;
    margin-right:10px;
-   margin-left:800px;
+   margin-left:750px;
    text-decoration:none;
  }
  
@@ -216,4 +217,3 @@ h4{
     transform: translateY(4px);
     border-bottom: none;
   }
-}
