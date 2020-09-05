@@ -132,7 +132,9 @@ header {
   }
 
   .childhood{
-    display: flex;}
+    display: flex;
+    text-align:center;
+  }
   
    .childhood img{
     display:inline-block;
