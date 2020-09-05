@@ -120,13 +120,21 @@ header {
    margin-bottom:20px;
  }
 
- .artist{
+ .paint{
   display: flex;}
 
- .artist img{
+ .paint img{
   display:inline-block;
   width:70%;
   }
+
+  .childhood{
+    display: flex;}
+  
+   .childhood img{
+    display:inline-block;
+    width:70%;
+    }
 
  .artworks {
      list-style: none;
