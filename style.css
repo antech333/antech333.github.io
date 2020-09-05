@@ -121,18 +121,9 @@ header {
  }
 
  .artist{
-  display: flex;
-}
+  display: flex;}
 
-.paint{
-display:inline-block;
-width:70%;
-margin-left:90px;
-margin-top:20px;
-margin-bottom:20px;
-}
-
-.childhood{
+ .artist img{
   display:inline-block;
   width:70%;
   margin-left:90px;
