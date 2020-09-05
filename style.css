@@ -125,7 +125,8 @@ header {
 }
 
 .artist img{
-width:50%;
+display:inline-block;
+width:70%;
 margin-left:90px;
 margin-top:20px;
 margin-bottom:20px;
