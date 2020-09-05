@@ -126,6 +126,9 @@ header {
  .paint img{
   display:inline-block;
   width:70%;
+  margin-left:90px;
+  margin-top:20px;
+  margin-bottom:20px;
   }
 
   .childhood{
@@ -134,6 +137,9 @@ header {
    .childhood img{
     display:inline-block;
     width:70%;
+    margin-left:500px;
+    margin-top:20px;
+    margin-bottom:20px;
     }
 
  .artworks {
